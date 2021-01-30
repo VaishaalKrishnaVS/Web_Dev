@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>HTML Forms</h2>
+
+    <form action="default.html /action">
+      <label for="N"> First name:</label><br />
+      <input
+        type="text"
+        id="N"
+        placeholder="Please enter the name"
+        readonly
+      /><br />
+      <label>Last name:</label><br />
+      <input
+        type="text"
+        placeholder=" Please enter the last name"
+        disabled
+      /><br /><br />
+      <label> Password:</label><br />
+      <input type="Password" /><br />
+      <label> DOB : </label><br />
+      <input type="date" /><br />
+      <label> Gender : </label>
+      <input type="radio" name="Gender" value="Male" />Male
+      <input type="radio" name="Gender" value="Female" />Female<br />
+      <label> Email Id : </label><br />
+      <input type="email" /><br />
+      <label> Language :</label><br />
+      <input type="checkbox" name="Language" value="C" /> C<br />
+      <input type="checkbox" name="Language" value="C++" /> C++<br />
+      <input type="checkbox" name="Language" value="JAVA" /> JAVA<br />
+      <input type="checkbox" name="Language" value="HTML" /> HTML<br />
+      <label> Department:</label><br />
+      <select>
+        <option name="department" value="CSE">CSE</option>
+        <option name="department" value="ECE">ECE</option>
+        <option name="department" value="EEE">EEE</option>
+        <option name="department" value="IT">IT</option>
+        <option name="department" value="CSBS">CSBS</option>
+        <option name="department" value="MECH">MECH</option>
+        <option name="department" value="MCT">MCT</option>
+        <br /></select
+      ><br />
+      <label> Upload Resume :</label><br />
+      <input type="file" /><br />
+      <label> Choose your Color : </label>
+      <input type="color" /><br />
+      <label> comment : </label> <textarea> Welcome!!!</textarea>
+      <input type="Reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>
+      If you click the "Submit" button, the form-data will be sent to a page
+      called "/default.html
+    </p>
+  </body>
+</html>
